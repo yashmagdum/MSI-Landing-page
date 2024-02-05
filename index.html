@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path
+                d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+            </path>
+        </symbol>
+        <symbol id="cart" viewBox="0 0 16 16">
+            <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z">
+            </path>
+        </symbol>
+        <symbol id="chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+            </path>
+        </symbol>
+    </svg>
+    <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand d-md-none" href="#">
+                <svg class="bi" width="24" height="24">
+                    <use xlink:href="#aperture"></use>
+                </svg>
+                Aperture
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                aria-controls="#offcanvas" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="#offcanvasLabel">Aperture</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-grow-1 justify-content-between">
+                        <li class="nav-item"><a class="nav-link" href="#">
+                                <svg class="bi" width="24" height="24">
+                                    <use xlink:href="#aperture"></use>
+                                </svg>
+                            </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img src="2021-msi-series_logo-gaming.png"
+                                    alt="logo "></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Enterprise</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">
+                                <svg class="bi" width="24" height="24">
+                                    <use xlink:href="#cart"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="cointainer" id="box1">
+        <h1 class="headline" style="color: red;">Welcome To MSI Gaming World</h1>
+        <br>
+        <br>
+        <div class="cointainer1">
+            <img src="images__4_-removebg-preview.png" alt="img1">
+        </div>
+        <div class="cointainer2">
+            <br>
+            <p style="color: white;">It is powered by a APU Quad Core processor and it comes with 16GB of RAM. The MSI
+                GF63 packs 256GB of SSD storage.
+                Connectivity options include Wi-Fi 802.11 ac, Bluetooth and it comes with 3 USB ports, HDMI Port, Multi
+                Card Slot, VGA
+                Port, Mic In, RJ45 (LAN), RJ11 ports.The MSI 15.6" GF63 Thin Gaming Laptop is designed for gamers who
+                favor portability slightly more so than performance.
+                Specs-wise, it's equipped with a 2.6 GHz Intel Core i7-9750H six-core processor, 8GB of DDR4 memory, a
+                512GB NVMe PCIe
+                M. 2 SSD, and an NVIDIA GeForce GTX 1650 Max-Q graphics card.</p>
+
+        </div>
+        <div class="cointainer3">
+            <img src="images (3).jpg" alt="img2">
+        </div>
+        <br>
+        <div class="cointainer4">
+            <p style="color: white;">
+                While there are a few flaws in the design, the MSI GF63 is overall a good deal unless you're going to be
+                doing some
+                serious gaming, and even then it's usable if you don't mind the graphics being a little lower
+                quality.MSI laptops are built with high-quality aluminum and alloy materials which make them tough yet
+                lightweight. The chassis
+                used on many of the models is sleek and slim but incredibly strong as well.
+            </p>
+
+        </div>
+        <div class="cointainer5">
+            <img src="images (1).jpg" alt="img3">
+            <br>
+        </div>
+        <div class="cointainer6">
+            <p style="color: white;">
+                GeForce RTX™ 30 Series powers the world's fastest laptops for gamers and creators. They're built with
+                the award-winningAmpere — NVIDIA's 2nd gen RTX architecture - with new RT Cores, Tensor Cores, and
+                streaming multiprocessors for the most
+                realistic ray-traced graphics and cutting-edge AI features.Resizable BAR is an advanced PCI Express
+                feature that enables the CPU to access the entire GPU frame buffer at once andimprove
+                performance.*Function may differ due to version change. Please update the latest VBIOS/BIOS/Driver
+                through MSI official website or
+                consult service center.
+
+            </p>
+        </div>
+        <div class="cointainer7">
+            <img src="images (2).jpg" alt="img4">
+        </div>
+        <div class="cointainer8">
+            <p style="color: white;">
+                The MSI GF63 packs 256GB of SSD storage. Connectivity options include Wi-Fi 802.11 ac, Bluetooth and it
+                comes with 3 USB
+                ports, HDMI Port, Multi Card Slot, VGA Port, Mic In, RJ45 (LAN), RJ11 portsIts exceptional performance,
+                stunning display, efficient cooling system, comfortable keyboard, and solid build quality
+                make it a top-tier choice for any gaming enthusiast. If you're looking for a gaming laptop that delivers
+                on both power
+                and portability, I highly recommend giving this one a try. It's a game-changer!
+            </p>
+        </div>
+        <div class="footer">
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <h6>About</h6>
+                            <p class="text-justify">
+                                Micro-Star International Co., Ltd. (MSI; Chinese: 微星科技股份有限公司) is a Taiwanese
+                                multinational information technology
+                                corporation headquartered in New Taipei City, Taiwan. It designs, develops and provides
+                                computer hardware, related
+                                products and services, including laptops, desktops, motherboards, graphics cards,
+                                all-in-one PCs, servers, industrial
+                                computers, PC peripherals, car infotainment products, among other products.
+                            </p>
+                        </div>
+
+                        <div class="col-xs-6 col-md-3">
+                            <h6>Categories</h6>
+                            <ul class="footer-links">
+                                <li><a href="">MSI Shope</a></li>
+                                <li><a href="">Amazon</a></li>
+                                <li><a href="">Flipkart</a></li>
+                                <li><a href="">Snapdeal</a></li>
+                                <li><a href="">Android</a></li>
+                                <li><a href="">Viracharya</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-6 col-md-3">
+                            <h6>Quick Links</h6>
+                            <ul class="footer-links">
+                                <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <p class="copyright-text"> Available on all Platforms
+                                <a href="#"></a>.
+                            </p>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <ul class="social-icons">
+                                <li><a class="facebook" href="#"><i class="fa fa  facebook"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
